@@ -67,7 +67,7 @@ For wider use, consider:
 The public demo URL is:
 
 ```text
-https://journalfit-ranking-studio-by-dr-alok-tiwari.streamlit.app/
+https://journalfit-studio-by-dr-alok-tiwari.streamlit.app/
 ```
 
 For confidential manuscripts, local or institution-hosted deployment is preferred unless the hosted environment has an approved privacy policy.
