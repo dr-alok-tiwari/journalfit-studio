@@ -169,7 +169,7 @@ This tool was designed and developed by **Dr. Alok Tiwari** as an independent re
 ## Suggested citation
 
 ```text
-Tiwari, A. (2026). JournalFit Studio: A local-first journal discovery and fit assistant for researchers. GitHub. https://github.com/dr-alok-tiwari/journalfit-ranking-studio
+Tiwari, A. (2026). JournalFit Studio: A local-first journal discovery and fit assistant for researchers. GitHub. https://github.com/dr-alok-tiwari/journalfit-studio
 ```
 
 ---
