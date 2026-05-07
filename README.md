@@ -3,7 +3,7 @@
 **Journal discovery and fit assistant for researchers**  
 Developed by **Dr. Alok Tiwari**, Assistant Professor, Big Data Analytics, Goa Institute of Management, Goa.
 
-Live app: <https://journalfit-ranking-studio-by-dr-alok-tiwari.streamlit.app/>  
+Live app: <https://journalfit-studio-by-dr-alok-tiwari.streamlit.app/>  
 Portfolio: <https://dr-alok-tiwari.github.io/>
 
 ---
