@@ -50,8 +50,8 @@ except Exception:  # pragma: no cover
 APP_NAME = "JournalFit Studio"
 APP_SUBTITLE = "Journal discovery and fit assistant"
 APP_VERSION = "4.0.0"
-APP_URL = "https://journalfit-ranking-studio-by-dr-alok-tiwari.streamlit.app/"
-GITHUB_URL = "https://github.com/dr-alok-tiwari/journalfit-ranking-studio"
+APP_URL = "https://journalfit-studio-by-dr-alok-tiwari.streamlit.app/"
+GITHUB_URL = "https://github.com/dr-alok-tiwari/journalfit-studio"
 PORTFOLIO_URL = "https://dr-alok-tiwari.github.io/"
 AUTHOR = "Dr. Alok Tiwari"
 
