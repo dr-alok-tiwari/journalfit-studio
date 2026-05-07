@@ -1,0 +1,12 @@
+services:
+  journalfit-studio:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: journalfit-studio
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app/data
+      - ./outputs:/app/outputs
+    restart: unless-stopped

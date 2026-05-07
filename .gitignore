@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.Python
+.venv/
+venv/
+env/
+.DS_Store
+.streamlit/secrets.toml
+outputs/*
+!outputs/.gitkeep
+*.log

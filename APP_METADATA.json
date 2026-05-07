@@ -1,0 +1,12 @@
+{
+  "name": "JournalFit Studio",
+  "version": "4.0.0",
+  "purpose": "Journal discovery and journal-fit decision support using manuscript title, abstract, keywords, and local journal metadata.",
+  "developer": "Dr. Alok Tiwari",
+  "portfolio": "https://dr-alok-tiwari.github.io/",
+  "live_app": "https://journalfit-ranking-studio-by-dr-alok-tiwari.streamlit.app/",
+  "repository": "https://github.com/dr-alok-tiwari/journalfit-ranking-studio",
+  "positioning": "Independent research-support tool. Not an official ranking, indexing, publisher, or acceptance-prediction system.",
+  "privacy_model": "Local-first workflow. No API keys and no external manuscript transfer by default. Hosted demo users should avoid confidential manuscripts unless the deployment policy explicitly permits it.",
+  "release_date": "2026-05-07"
+}
