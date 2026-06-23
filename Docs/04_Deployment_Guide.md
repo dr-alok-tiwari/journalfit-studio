@@ -1,6 +1,6 @@
 # Deployment Guide
 
-This guide explains how to run JournalFit Studio locally or through Docker.
+This guide explains how to run JournalFit Studio locally, through Docker, or on Streamlit Community Cloud.
 
 ## Local installation
 
@@ -17,6 +17,40 @@ Open:
 ```text
 http://localhost:8501
 ```
+
+## Streamlit Community Cloud
+
+Use the following deployment settings:
+
+```text
+Repository: dr-alok-tiwari/journalfit-studio
+Branch: main
+Main file path: app.py
+```
+
+Public demo URL:
+
+```text
+https://journalfit-studio-by-dr-alok-tiwari.streamlit.app/
+```
+
+## Metadata files
+
+The app supports journal metadata in these formats:
+
+```text
+.csv
+.xlsx
+.xls
+```
+
+The repository includes:
+
+```text
+data/sample_journal_metadata.csv
+```
+
+This sample is detected automatically on Streamlit Cloud. For real use, replace it with verified journal metadata or upload metadata from the sidebar.
 
 ## Docker installation
 
@@ -50,24 +84,6 @@ docker compose logs -f
 
 ## Production considerations
 
-For wider use, consider:
-
-- HTTPS and reverse proxy configuration.
-- Institutional authentication or SSO.
-- Role-based access.
-- Clear privacy policy for manuscript uploads.
-- Server-side file-retention policy.
-- Audit logging for metadata changes.
-- Scheduled metadata review and data-refresh workflows.
-- Accessibility testing on desktop and mobile.
-- User-support and issue-reporting channel.
-
-## Streamlit Community Cloud
-
-The public demo URL is:
-
-```text
-https://journalfit-studio-by-dr-alok-tiwari.streamlit.app/
-```
+For wider use, consider HTTPS, authentication, access control, a clear privacy policy for manuscript uploads, a file-retention policy, metadata refresh workflows, accessibility testing, and a support channel.
 
 For confidential manuscripts, local or institution-hosted deployment is preferred unless the hosted environment has an approved privacy policy.
