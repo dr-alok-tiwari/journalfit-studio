@@ -1,12 +1,13 @@
 {
   "name": "JournalFit Studio",
-  "version": "4.1.0",
-  "purpose": "Journal discovery and journal-fit decision support using manuscript title, abstract, keywords, research area, and local journal metadata.",
+  "version": "5.0.0",
+  "purpose": "Explainable journal discovery and fit decision support using manuscript evidence and local journal metadata.",
   "developer": "Dr. Alok Tiwari",
   "portfolio": "https://dr-alok-tiwari.github.io/",
   "live_app": "https://journalfit-studio-by-dr-alok-tiwari.streamlit.app/",
   "repository": "https://github.com/dr-alok-tiwari/journalfit-studio",
-  "positioning": "Independent research-support tool. Not an official ranking, indexing, publisher, or acceptance-prediction system.",
-  "privacy_model": "Local-first workflow. No API keys and no external manuscript transfer by default. Hosted demo users should avoid confidential manuscripts unless the deployment policy explicitly permits it.",
-  "release_date": "2026-05-07"
+  "positioning": "Independent research-support tool. Not an official ranking, indexing, publisher, journal-quality, or acceptance-prediction system.",
+  "privacy_model": "Local-first workflow with no external AI API required. Hosted users should avoid confidential manuscripts unless the deployment policy explicitly permits them.",
+  "deployment": "Streamlit Community Cloud compatible with Python 3.11 or 3.12 and root requirements.txt.",
+  "release_date": "2026-07-16"
 }
